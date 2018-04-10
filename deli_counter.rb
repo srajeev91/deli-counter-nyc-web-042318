@@ -9,5 +9,6 @@ def line(array)
       result += "#{counter}. #{name} "
       counter += 1
     end
-
-puts result
+  end
+  puts result
+end
