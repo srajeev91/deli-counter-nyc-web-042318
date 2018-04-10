@@ -6,8 +6,8 @@ def line(array)
     
     counter = 1
     array.each do |name|
-  result += "#{counter}. #{name} "
-  counter += 1
-end
+      result += "#{counter}. #{name} "
+      counter += 1
+    end
 
 puts result
