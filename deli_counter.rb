@@ -7,5 +7,5 @@ def line(array)
       new_array.push("#{index}. #{name}")
     end
   end
-  return "The line is currently: #{new_array}"
+  puts "The line is currently: #{new_array}"
 end
