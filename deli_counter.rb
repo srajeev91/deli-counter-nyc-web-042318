@@ -15,15 +15,11 @@ def line(katz_deli)
   
 end
 
+
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
-  
-  my_new_array = []
-  i = 0
-  while i < katz_deli.length
-    my_new_array.push("#{i+1}. #{katz_deli[i]}")
-    i++
-  end
+  puts "Welcome, #{name}. You are number #{katz_deli.length]} in line."
+end
   
   
   
