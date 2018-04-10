@@ -4,8 +4,7 @@ def line(array)
   else
     new_array = []
     new_array.push(array.each.with_index(1) do |name, index|
-      puts "#{index}. #{name}"
-    )
+      puts "#{index}. #{name}")
     end
     return "The line is currently: #{new_array}"
   end
