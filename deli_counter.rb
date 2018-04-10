@@ -12,4 +12,7 @@ def line(katz_deli)
     end
     puts result
   end
+  
 end
+
+def take_a_number
