@@ -2,6 +2,10 @@ def line(array)
   if array.size == 0
     puts "The line is currently empty."
   else
-    return array
+    new_array = []
+    new_array.push(array.each.with_index(1) |name|
+      puts ""
+    )
+    return "The line is currently: #{new_array}
   end
 end
