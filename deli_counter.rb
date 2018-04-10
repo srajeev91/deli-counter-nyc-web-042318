@@ -7,6 +7,6 @@ def line(array)
       puts "#{index}. #{name}"
     end
     )
-    return "The line is currently: #{new_array}"
   end
+  return "The line is currently: #{new_array}"
 end
