@@ -1,11 +1,12 @@
-def line(array)
-  if array.length == 0
+def line(katz_deli)
+  if katz_deli.length == 0
     puts "The line is currently empty."
+    
   else
     result = "The line is currently:"
     
     counter = 1
-    array.each do |name|
+    katz_deli.each do |name|
       result += " #{counter}. #{name}"
       counter += 1
     end
